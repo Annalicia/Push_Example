@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		97F54D3B25356A6B61F0B9B1 /* Pods_Push_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EA48592ACAA77322B49F52 /* Pods_Push_Example.framework */; };
+		D10CC23E1D3087D1001E1773 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10CC23A1D3087D1001E1773 /* Fabric.framework */; };
+		D10CC23F1D3087D1001E1773 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10CC23B1D3087D1001E1773 /* DigitsKit.framework */; };
+		D10CC2401D3087D1001E1773 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D10CC23C1D3087D1001E1773 /* DigitsKitResources.bundle */; };
+		D10CC2411D3087D2001E1773 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10CC23D1D3087D1001E1773 /* TwitterCore.framework */; };
 		D182699A1D30721F00CE0F7F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D18269991D30721F00CE0F7F /* libz.tbd */; };
 		D182699C1D30722C00CE0F7F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D182699B1D30722C00CE0F7F /* libstdc++.tbd */; };
 		D1F217A11D306D280041E36F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F217A01D306D280041E36F /* main.m */; };
@@ -23,6 +27,10 @@
 		02F572D4A1D42F44D10B77D2 /* Pods-Push Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Push Example/Pods-Push Example.release.xcconfig"; sourceTree = "<group>"; };
 		03AC90A5701E272BAB1B18E7 /* Pods-Push Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Push Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Push Example/Pods-Push Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83EA48592ACAA77322B49F52 /* Pods_Push_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Push_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10CC23A1D3087D1001E1773 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D10CC23B1D3087D1001E1773 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		D10CC23C1D3087D1001E1773 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		D10CC23D1D3087D1001E1773 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		D18269991D30721F00CE0F7F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D182699B1D30722C00CE0F7F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		D1F2179C1D306D280041E36F /* Push Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Push Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +52,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D182699C1D30722C00CE0F7F /* libstdc++.tbd in Frameworks */,
+				D10CC2411D3087D2001E1773 /* TwitterCore.framework in Frameworks */,
 				D182699A1D30721F00CE0F7F /* libz.tbd in Frameworks */,
 				97F54D3B25356A6B61F0B9B1 /* Pods_Push_Example.framework in Frameworks */,
+				D10CC23E1D3087D1001E1773 /* Fabric.framework in Frameworks */,
+				D10CC23F1D3087D1001E1773 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,10 @@
 		D1F217931D306D280041E36F = {
 			isa = PBXGroup;
 			children = (
+				D10CC23A1D3087D1001E1773 /* Fabric.framework */,
+				D10CC23B1D3087D1001E1773 /* DigitsKit.framework */,
+				D10CC23C1D3087D1001E1773 /* DigitsKitResources.bundle */,
+				D10CC23D1D3087D1001E1773 /* TwitterCore.framework */,
 				D1F2179E1D306D280041E36F /* Push Example */,
 				D1F2179D1D306D280041E36F /* Products */,
 				82603B5F5FCD37414956C2B0 /* Pods */,
@@ -143,6 +158,7 @@
 				D1F2179A1D306D280041E36F /* Resources */,
 				E83CC63B7F60B7D7DB6F94BE /* [CP] Embed Pods Frameworks */,
 				A79FAF3CE400EA25AE0F1805 /* [CP] Copy Pods Resources */,
+				D10CC2391D30877B001E1773 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -191,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10CC2401D3087D1001E1773 /* DigitsKitResources.bundle in Resources */,
 				D1F217B21D306D280041E36F /* LaunchScreen.storyboard in Resources */,
 				D1F217AF1D306D280041E36F /* Assets.xcassets in Resources */,
 				D1F217AA1D306D280041E36F /* Main.storyboard in Resources */,
@@ -229,6 +246,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Push Example/Pods-Push Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D10CC2391D30877B001E1773 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 12d8942026c3a1619e2c576bf2ff24c36bfc9672 26bcde9af46b03e478940f2ae99bf37d78c0768ab5249894e9cb64514325a150";
 		};
 		E83CC63B7F60B7D7DB6F94BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -370,6 +400,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Push Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Push-Example";
@@ -385,6 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Push Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartplace.Push-Example";
